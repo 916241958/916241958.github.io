@@ -296,6 +296,33 @@
 
 
 
+
+  
+      <section id="comments" class="comments">
+        <style>
+          .comments{margin:30px;padding:10px;background:#fff}
+          @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
+        </style>
+        <div id="vcomment" class="comment"></div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  var notify = 'false' == true ? true : false;
+  var verify = 'false' == true ? true : false;
+  new Valine({
+    av: AV,
+    el: '#vcomment',
+    notify: notify,
+    app_id: "JwFDej7SJMr2a9NdsJHmiYvS-gzGzoHsz",
+    app_key: "gLSvdj7W2rf0SXeURV4UHKYJ",
+    placeholder: "Just go go",
+    avatar: "mm",
+  });
+</script>
+    </section>
+  
+
           </div>
         </div>
       </div>
@@ -480,7 +507,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">生活很苦，但请继续努力生存下去&lt;br&gt;&lt;br&gt;我的QQ：916241958</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">You can do anything !&lt;br&gt;&lt;br&gt;just get up and do it,follow your dreams&lt;br&gt;&lt;br&gt;我的QQ：916241958</div>
   	  	
     	</section>
     
